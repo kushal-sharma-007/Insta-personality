@@ -55,7 +55,7 @@ function App() {
             heatmap[story.date].count += 1
             heatmap[story.date].stories.push({
               id: story.id,
-              thumb: `/stories/${story.month}/${story.filename}`,
+              thumb: `${import.meta.env.BASE_URL}stories/${story.month}/${story.filename}`,
               caption: story.caption,
               tags: [story.theme, 'instagram', 'story', ...(story.genres || [])]
             })
@@ -69,7 +69,7 @@ function App() {
 
           storyGallery[theme].push({
             id: story.id,
-            thumb: `/stories/${story.month}/${story.filename}`,
+            thumb: `${import.meta.env.BASE_URL}stories/${story.month}/${story.filename}`,
             caption: story.caption,
             tags: [theme, 'instagram', 'story', ...(story.genres || [])]
           })
