@@ -96,7 +96,7 @@ const loadStoriesAPI = {
 }
 
 export default defineConfig({
-  base: '/Insta-Personality/',
+  base: '/Insta-personality/',
   plugins: [react(), loadStoriesAPI],
   server: {
     port: 3000,
