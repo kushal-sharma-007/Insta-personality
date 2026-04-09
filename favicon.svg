@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="32" height="32" fill="#151515"/>
+  
+  <!-- Gold border -->
+  <rect x="1" y="1" width="30" height="30" fill="none" stroke="#D4A574" stroke-width="1.5"/>
+  
+  <!-- KS Text -->
+  <text x="16" y="22" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#D4A574" text-anchor="middle" letter-spacing="2">KS</text>
+</svg>
